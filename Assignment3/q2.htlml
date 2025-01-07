@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Organization Hierarchy</title>
+</head>
+
+<body>
+    <h1>Company Organization Hierarchy</h1>
+    <table border="20" cellspacing="0" cellpadding="5">
+        <caption><strong>Department Information</strong></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Department Name</th>
+                <th rowspan="2">Manager</th>
+                <th rowspan="2">Number of Employees</th>
+                <th colspan="2">Budget</th>
+            </tr>
+            <tr>
+                <th>Budget ($)</th>
+                <th>Percentage of Total Budget</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">HR</td>
+                <td>Lionel Messi</td>
+                <td>15</td>
+                <td>$400,000</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+                <td>Cristiano Ronaldo</td>
+                <td>18</td>
+                <td>$450,000</td>
+                <td>9%</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Engineering</td>
+                <td>Kylian Mbappé</td>
+                <td>200</td>
+                <td>$5,000,000</td>
+                <td>50%</td>
+            </tr>
+            <tr>
+                <td>Mohamed Salah</td>
+                <td>180</td>
+                <td>$4,500,000</td>
+                <td>45%</td>
+            </tr>
+            <tr>
+                <td>Harry Kane</td>
+                <td>220</td>
+                <td>$5,200,000</td>
+                <td>52%</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Marketing</td>
+                <td>Neymar Jr.</td>
+                <td>35</td>
+                <td>$750,000</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Kevin De Bruyne</td>
+                <td>40</td>
+                <td>$800,000</td>
+                <td>11%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
